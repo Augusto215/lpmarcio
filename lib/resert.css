@@ -1,0 +1,54 @@
+:root {
+    --glb-primary-color: #1f2e48;
+    --glb-secondary-color: #1a273d;
+    --glb-hiperlink-color: #1f2e48;
+    --glb-hiperlink-hover-color: #1a273d;
+    --glb-contrast-primary-color: #ffffff;
+    --glb-background-color: #FFF;
+    --glb-base-text-color: #333;
+    --glb-title-color: #111;
+    --glb-aux-text-color: #555;
+  }
+
+  .theme-color-primary {
+    color: #1f2e48;
+    fill: currentColor;
+  }
+
+  .theme-border-color-primary,
+  .theme-border-color-primary-before::before,
+  .theme-border-color-primary-after::after {
+    border-color: #1f2e48;
+  }
+
+  .theme-bg-color-primary {
+    background-color: #1f2e48;
+  }
+
+  .theme a {
+    color: #1f2e48;
+  }
+
+  .theme a:hover,
+  .theme-hover a:hover {
+    color: #1a273d;
+  }
+
+  .theme-ordered-list-color-primary li::before {
+    color: #1f2e48;
+    fill: currentColor;
+  }
+
+  body *::selection,
+  body *::-moz-selection {
+    background: rgba(31, 46, 72, 0.2);
+  }
+
+  body {
+    color: #333;
+    background-color: #FFF;
+  }
+
+  .gui-color-primary-bg {
+    background-color: #1f2e48;
+  }
